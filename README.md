@@ -1,5 +1,9 @@
 # 🎙️ Whisper Transcriber CLI
 
+Whisper Transcriber CLI is a specialized Python tool designed to run OpenAI's state-of-the-art speech recognition models on legacy and cooling-constrained hardware.
+
+Standard Whisper implementations often utilize 100% of available CPU resources, which can lead to thermal throttling or overheating on older systems (such as 1st Gen Intel Core i7s). This tool solves that problem by providing granular control over CPU thread usage, allowing users to balance transcription speed with hardware safety. It offers a simple command-line interface for processing local audio/video files with custom output naming and model selection.
+
 > **A hardware-friendly command-line tool for transcribing audio using OpenAI's Whisper model.**
 
 This tool is a Python wrapper around [OpenAI Whisper](https://github.com/openai/whisper) designed with **legacy hardware** and **temperature management** in mind. It allows users to limit CPU thread usage to prevent overheating on older processors (e.g., 1st Gen Intel i7) while delivering state-of-the-art transcription accuracy.
