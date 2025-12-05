@@ -1,0 +1,10 @@
+# Python cache dosyaları
+__pycache__/
+*.pyc
+
+# Sanal ortam klasörü (eğer kullanıyorsanız adını değiştirin)
+venv/
+.venv/
+
+# IDE ayar dosyaları (VS Code)
+.vscode/
